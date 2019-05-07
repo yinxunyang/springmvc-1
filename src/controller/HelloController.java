@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-
+//https://blog.csdn.net/weixin_41835916/article/details/80907938
 @Controller      //@Controller注解：采用注解的方式定义该类为处理请求的Controller类
 public class HelloController {
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
